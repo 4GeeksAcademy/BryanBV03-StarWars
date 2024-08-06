@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { Context } from "../store/appContext";
 import { useParams } from "react-router-dom";
 
+
 function PersonajeDetalle() {
     const { store, actions } = useContext(Context);
     const { uid } = useParams();
@@ -16,7 +17,7 @@ function PersonajeDetalle() {
     const { personaje } = store;
 
     return (
-        <div>
+        <div className="personaje-detalle">
             {personaje ? (
                 <>
                     <h1>{personaje.name}</h1>
@@ -40,3 +41,5 @@ function PersonajeDetalle() {
 }
 
 export default PersonajeDetalle;
+
+ 
