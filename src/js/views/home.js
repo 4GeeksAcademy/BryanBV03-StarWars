@@ -17,7 +17,17 @@ export const Home = () => {
 		<>
 			<div className="text-center mt-5">
 				<button type="button" className="btn btn-success" onClick={() => navigate("/personajes")}>
-					Ir a personajes
+					PERSONAJES
+				</button>
+			</div>
+			<div className="text-center mt-5">
+				<button type="button" className="btn btn-success" onClick={() => navigate("/planetas")}>
+					PLANETAS
+				</button>
+			</div>
+			<div className="text-center mt-5">
+				<button type="button" className="btn btn-success" onClick={() => navigate("/vehiculos")}>
+					VEHICULOS
 				</button>
 			</div>
 		</>

@@ -6,23 +6,17 @@ const Card = ({ name, uid, type }) => {
     return (
         <div className="card" >
             <img src=
-                "https://placehold.co/400"
+                ""
                 className="card-img-top"
-                alt="..."
-                onClick={() => navigate(`/${type}/${uid}`)}
-                style={{ cursor: "pointer" }} />
+                alt="..." />
             <div className="card-body">
                 <h5 className="card-title">{name}</h5>
-
-                <a href="#" className="btn btn-primary">
-                    Go somewhere
-                </a>
-                <button 
-                type="button"
-                className="btn btn-primary" 
-                onClick={() => navigate(`/${type}/${uid}`)}
+                <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={() => navigate(`/${type}/${uid}`)}
                 >
-
+                    Description
                 </button>
             </div>
         </div>

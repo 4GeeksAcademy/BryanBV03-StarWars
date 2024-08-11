@@ -30,8 +30,6 @@ function PersonajeDetalle() {
                     <p><strong>Mass:</strong> {personaje.mass}</p>
                     <p><strong>Skin Color:</strong> {personaje.skin_color}</p>
                     <p><strong>URL:</strong> <a href={personaje.url}>{personaje.url}</a></p>
-                    <p><strong>Created:</strong> {new Date(personaje.created).toLocaleString()}</p>
-                    <p><strong>Edited:</strong> {new Date(personaje.edited).toLocaleString()}</p>
                 </>
             ) : (
                 <p>Loading...</p>
