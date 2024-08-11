@@ -21,6 +21,8 @@
 /* Efecto hover para agrandar ligeramente la tarjeta */
 .star-wars-card:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 30px #ff0000;
+
     /* Aumenta el tamaño de la tarjeta al pasar el cursor */
 }
 

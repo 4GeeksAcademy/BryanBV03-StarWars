@@ -13,12 +13,10 @@ body {
 a{
     color: white;
 }
-
-
-.logo-SW {
-    width: 100px
+h1{
+    text-align: center;
+    justify-content: center;
 }
-
 /* PersonajeDetalle.css */
 
 .personaje-detalle {
