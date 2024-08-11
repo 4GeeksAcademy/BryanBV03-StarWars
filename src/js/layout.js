@@ -8,13 +8,20 @@ import injectContext from "./store/appContext";
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import Personajes from "./views/Personajes";
-import PersonajeDetalle from "./views/PersonajeDetalle";
+import PersonajeDetalle from "./views/Detalles/PersonajeDetalle";
 import Planetas from "./views/Planetas";
-import PlanetaDetalle from "./views/PlanetaDetalle";
+import PlanetaDetalle from "./views/Detalles/PlanetaDetalle";
 import Vehiculos from "./views/Vehiculos";
-import VehiculoDetalle from "./views/VehiculoDetalle";
+import VehiculoDetalle from "./views/Detalles/VehiculoDetalle";
 //create your first component
 const Layout = () => {
+	// const { actions } = useContext(Context);
+
+	// useEffect(() => {
+	//   actions.getPersonajes();
+	//   actions.getPlanetas();
+	//   actions.getVehiculos();
+	// }, []);
 	
 	return (
 		<div>

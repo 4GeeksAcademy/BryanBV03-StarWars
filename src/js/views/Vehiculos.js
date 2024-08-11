@@ -19,7 +19,7 @@ function Vehiculos() {
             <div className="row mx-4">
                 {store.vehiculos.map((vehiculo) => (
                     <div key={vehiculo.uid} className="col-4 my-3">
-                        <Card name={vehiculo.name} uid={vehiculo.uid} type={"vehiculos"}></Card>
+                        <Card name={vehiculo.name} uid={vehiculo.uid} type="vehiculos"img={`https://starwars-visualguide.com/assets/img/vehicles/${vehiculo.uid}.jpg`}></Card>
                     </div>
                 ))}
             </div>

@@ -19,7 +19,7 @@ function Personajes() {
             <div className="row mx-4">
                 {store.personajes.map((personaje) => (
                     <div key={personaje.uid} className="col-4 my-3">
-                        <Card name={personaje.name} uid={personaje.uid} type={"personajes"}></Card>
+                        <Card name={personaje.name} uid={personaje.uid} type={"personajes"} img={`https://starwars-visualguide.com/assets/img/characters/${personaje.uid}.jpg`}></Card>
                     </div>
                 ))}
             </div>

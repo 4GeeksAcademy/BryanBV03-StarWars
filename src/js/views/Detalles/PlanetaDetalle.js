@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { Context } from "../store/appContext";
+import { Context } from "../../store/appContext";
 import { useParams } from "react-router-dom";
 
 function PlanetaDetalle() {
@@ -19,7 +19,7 @@ function PlanetaDetalle() {
         <div className="planeta-detalle">
             {planeta ? (
                 <>
-                    <h2>{planeta.name}</h2>
+                    <h1>{planeta.name}</h1>
                     <p><strong>Clima:</strong> {planeta.climate}</p>
                     <p><strong>Creado:</strong> {planeta.created}</p>
                     <p><strong>Diámetro:</strong> {planeta.diameter}</p>

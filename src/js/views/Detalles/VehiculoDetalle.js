@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { Context } from "../store/appContext";
+import { Context } from "../../store/appContext";
 import { useParams } from "react-router-dom";
 
 function VehiculoDetalle() {
@@ -19,7 +19,7 @@ function VehiculoDetalle() {
         <div className="vehiculo-detalle">
             {vehiculo ? (
                 <>
-                    <h2 className="vehiculo-titulo">{vehiculo.name}</h2>
+                    <h1 className="vehiculo-titulo">{vehiculo.name}</h1>
                     <div className="vehiculo-info">
                         <p><strong>Modelo:</strong> {vehiculo.model}</p>
                         <p><strong>Fabricante:</strong> {vehiculo.manufacturer}</p>

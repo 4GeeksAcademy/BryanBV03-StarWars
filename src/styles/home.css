@@ -1,0 +1,83 @@
+/* Estilo para la tarjeta con temática de Star Wars */
+.star-wars-card {
+    background-color: #000;
+    /* Fondo negro para darle un toque espacial */
+    border: 2px solid rgba(255, 0, 0, 0.6);
+    /* Borde rojo con transparencia */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+    /* Sombra que da un efecto de brillo rojo */
+    width: 400px;
+    /* Ancho de la tarjeta */
+    margin: 20px;
+    /* Espacio alrededor de la tarjeta */
+    overflow: hidden;
+    /* Esconde cualquier contenido que se salga del borde */
+    transition: transform 0.2s;
+    /* Animación para suavizar el efecto hover */
+}
+
+/* Efecto hover para agrandar ligeramente la tarjeta */
+.star-wars-card:hover {
+    transform: scale(1.05);
+    /* Aumenta el tamaño de la tarjeta al pasar el cursor */
+}
+
+/* Estilo para la imagen dentro de la tarjeta */
+.star-wars-card-image {
+    width: 100%;
+    /* La imagen ocupa todo el ancho de la tarjeta */
+    height: auto;
+    /* Ajusta la altura automáticamente */
+    border-bottom: 2px solid rgba(255, 0, 0, 0.6);
+    /* Borde inferior para separar de los contenidos */
+}
+
+/* Estilo para el contenido de la tarjeta */
+.star-wars-card-content {
+    padding: 15px;
+    /* Espacio interno en el contenido de la tarjeta */
+    color: #e0e0e0;
+    /* Color de texto claro */
+}
+
+/* Estilo para el título de la tarjeta */
+.star-wars-card-title {
+    font-size: 1.2em;
+    /* Tamaño de fuente para el título */
+    margin-bottom: 10px;
+    /* Espacio debajo del título */
+    text-align: center;
+    /* Centra el título */
+}
+
+/* Estilo para los botones en la tarjeta */
+.star-wars-card-buttons {
+    text-align: center;
+    /* Centra el botón */
+}
+
+.star-wars-card-buttons .btn-primary {
+    background-color: #ff0000;
+    /* Color de fondo rojo para el botón */
+    border: none;
+    /* Sin borde */
+    color: #fff;
+    /* Color de texto blanco */
+    padding: 10px 20px;
+    /* Espacio interno en el botón */
+    border-radius: 5px;
+    /* Bordes redondeados en el botón */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, opacity 0.3s;
+    /* Animación para suavizar el cambio de color y transparencia */
+}
+
+.star-wars-card-buttons .btn-primary:hover {
+    background-color: #cc0000;
+    /* Oscurece el color del botón al pasar el cursor */
+    opacity: 0.8;
+    /* Hace que el botón sea un poco transparente al pasar el cursor */
+}

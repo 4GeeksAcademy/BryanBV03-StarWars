@@ -11,6 +11,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 			personaje: [],
 			planeta: [],
 			vehiculo: [],
+			getUrlImgPersonajes: [],
+			getUrlImgPlanetas: [],
+			getUrlImgVehiculos: [],
 
 		},
 		actions: {
@@ -91,7 +94,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			},
 			getUrlImgPlanetas: (id) => {
 				if (id === "1") {
-					return "https://upload.wikimedia.org/wikipedia/en/6/6d/Tatooine_%28fictional_desert_planet%29.jpg";
+					return "https://static.wikia.nocookie.net/esstarwars/images/b/b0/Tatooine_TPM.png/revision/latest?cb=20131214162357";
 				} else {
 					return `https://starwars-visualguide.com/assets/img/planets/${id}.jpg`;
 				}

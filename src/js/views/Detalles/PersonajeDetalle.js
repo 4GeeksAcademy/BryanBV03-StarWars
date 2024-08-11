@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { Context } from "../store/appContext";
+import { Context } from "../../store/appContext";
 import { useParams } from "react-router-dom";
 
 
@@ -40,4 +40,3 @@ function PersonajeDetalle() {
 
 export default PersonajeDetalle;
 
- 
