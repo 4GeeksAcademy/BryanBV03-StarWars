@@ -1,3 +1,185 @@
 /* 
     General Styles
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body {
+    
+    background-image: url("https://wallpapercave.com/wp/wp8179249.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    color:red;
+}
+a{
+    color: white;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+}
+/* PersonajeDetalle.css */
+
+.personaje-detalle {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+}
+
+.personaje-detalle h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff0000;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.7);
+}
+
+.personaje-detalle p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.personaje-detalle p strong {
+    color: #ff0000;
+}
+
+.personaje-detalle a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.personaje-detalle a:hover {
+    text-decoration: underline;
+}
+
+/* PlanetaDetalle.css */
+
+.planeta-detalle {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ff0000;
+    /* Rojo similar al personaje */
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+    /* Sombra roja */
+    font-family: 'Arial', sans-serif;
+}
+
+.planeta-detalle h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff0000;
+    /* Rojo para títulos */
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.7);
+    /* Sombra de texto */
+}
+
+.planeta-detalle p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.planeta-detalle p strong {
+    color: #ff0000;
+    /* Rojo para etiquetas importantes */
+}
+
+.planeta-detalle a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.planeta-detalle a:hover {
+    text-decoration: underline;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ff0000;
+    /* Rojo para el texto de carga */
+}
+
+@media (max-width: 600px) {
+    .planeta-detalle {
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .planeta-detalle h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* VehiculoDetalle */
+
+.vehiculo-detalle {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ff0000;
+    /* Rojo similar al personaje */
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+    /* Sombra roja */
+}
+
+.vehiculo-titulo {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff0000;
+    /* Rojo para títulos */
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.7);
+    /* Sombra de texto */
+}
+
+.vehiculo-info p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.vehiculo-info strong {
+    color: #ff0000;
+    /* Rojo para etiquetas importantes */
+}
+
+.vehiculo-info a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.vehiculo-info a:hover {
+    text-decoration: underline;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ff0000;
+    /* Rojo para el texto de carga */
+}
+
+@media (max-width: 600px) {
+    .vehiculo-detalle {
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .vehiculo-titulo {
+        font-size: 1.5em;
+    }
+}
