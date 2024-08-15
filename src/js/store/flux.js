@@ -14,6 +14,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			getUrlImgPersonajes: [],
 			getUrlImgPlanetas: [],
 			getUrlImgVehiculos: [],
+			favoritos: [],
 
 		},
 		actions: {
@@ -98,6 +99,17 @@ const getState = ({ getStore, getActions, setStore }) => {
 				} else {
 					return `https://starwars-visualguide.com/assets/img/planets/${id}.jpg`;
 				}
+			},
+			addToFavorites: (item) => {
+				const store = getStore();
+				// Evitar duplicados
+				if (!store.favoritos.find(fav => fav.uid === item.uid)) {
+					setStore({ favoritos: [...store.favoritos, item] });
+				}
+			},
+			removeFromFavorites: (uid) => {
+				const store = getStore();
+				setStore({ favoritos: store.favoritos.filter(fav => fav.uid !== uid) });
 			},
 		},
 	};

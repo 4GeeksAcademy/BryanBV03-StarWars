@@ -1,3 +1,10 @@
+.home-container{
+    color: #ff0000 ;
+}
+.star-wars-footer{
+    color: #ff0000 ;
+}
+
 /* Estilo para la tarjeta con temática de Star Wars */
 .star-wars-card {
     background-color: #000;
@@ -54,32 +61,60 @@
     /* Centra el título */
 }
 
-/* Estilo para los botones en la tarjeta */
-.star-wars-card-buttons {
-    text-align: center;
-    /* Centra el botón */
-}
-
-.star-wars-card-buttons .btn-primary {
+/* Estilo para el botón de descripción */
+.boton1 {
     background-color: #ff0000;
-    /* Color de fondo rojo para el botón */
+    /* Color de fondo rojo */
     border: none;
     /* Sin borde */
     color: #fff;
-    /* Color de texto blanco */
+    /* Texto blanco */
     padding: 10px 20px;
-    /* Espacio interno en el botón */
+    /* Espacio interno */
     border-radius: 5px;
-    /* Bordes redondeados en el botón */
+    /* Bordes redondeados */
     cursor: pointer;
-    /* Cambia el cursor al pasar sobre el botón */
+    /* Cursor cambia a puntero */
     transition: background-color 0.3s, opacity 0.3s;
-    /* Animación para suavizar el cambio de color y transparencia */
+    /* Transiciones suaves */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centrado horizontal y vertical */
 }
 
-.star-wars-card-buttons .btn-primary:hover {
+.boton1:hover {
     background-color: #cc0000;
-    /* Oscurece el color del botón al pasar el cursor */
+    /* Color más oscuro al pasar el cursor */
     opacity: 0.8;
-    /* Hace que el botón sea un poco transparente al pasar el cursor */
+    /* Opacidad al pasar el cursor */
+}
+
+/* Estilo para el botón de favoritos */
+.boton2 {
+    background-color: #ff0000;
+    /* Color de fondo rojo */
+    border: none;
+    /* Sin borde */
+    color: #fff;
+    /* Texto blanco */
+    padding: 10px 20px;
+    /* Espacio interno */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cursor cambia a puntero */
+    transition: background-color 0.3s, opacity 0.3s;
+    /* Transiciones suaves */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centrado horizontal y vertical */
+}
+
+.boton2:hover {
+    background-color: #cc0000;
+    /* Color más oscuro al pasar el cursor */
+    opacity: 0.8;
+    /* Opacidad al pasar el cursor */
 }
